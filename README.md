@@ -4,7 +4,9 @@ API Usage
 
     Endpoint: /api/v1/health-check
 
-    Required Header: X-Owner: {uuid}
+    Required Headers:
+       - X-Owner: {uuid}
+       - Accept: application/json
 
     Rate Limit: 60 requests per minute.
 
